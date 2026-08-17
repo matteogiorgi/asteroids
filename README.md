@@ -23,8 +23,8 @@ A from-scratch remake of the 1979 Atari arcade classic [_Asteroids_](https://en.
 
 ## Controls
 
-| Key             | Action                                  |
-|-----------------|------------------------------------------|
+| Key              | Action                                  |
+|------------------|-----------------------------------------|
 | <kbd>W</kbd>     | Thrust forward                          |
 | <kbd>A</kbd>     | Rotate left                             |
 | <kbd>D</kbd>     | Rotate right                            |
@@ -38,14 +38,14 @@ A from-scratch remake of the 1979 Atari arcade classic [_Asteroids_](https://en.
 
 ## Running locally
 
-The game is static and dependency-free (p5.js is vendored under `src/libraries/`), so any local web server works:
+The game is static and dependency-free (p5.js is vendored under `src/libraries/`), so any local web server works, for example in Python:
 
 ```bash
 cd src
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000` in your browser. A convenience script (`src/script.sh`) does the same and launches Firefox directly — it exists to sidestep Firefox's local file security restrictions, which otherwise block loading assets from `file://`.
+Then open `http://localhost:8000` in your browser, or just run the convenience script: [`src/script.sh`](src/script.sh).
 
 
 
