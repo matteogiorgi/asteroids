@@ -69,10 +69,3 @@ Then open `http://localhost:8000` in your browser, or just run the convenience s
 | `audio/`         | Sound effects                                                     |
 
 _(all under `src/`)_
-
-
-
-
-### License
-
-Released under the [GNU GPLv3](https://github.com/matteogiorgi/asteroids/blob/master/LICENSE).
