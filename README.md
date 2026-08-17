@@ -2,9 +2,11 @@
 
 A from-scratch remake of the 1979 Atari arcade classic [_Asteroids_](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), built in vanilla JavaScript on top of [p5.js](https://p5js.org/). No game engine, no build step — just a `<canvas>`, some trigonometry, and a lot of exploding rocks.
 
-**[▶ Play it now](https://matteogiorgi.github.io/asteroids/src)** — runs entirely in the browser, nothing to install.
+**[Play it now](https://matteogiorgi.github.io/asteroids/src)** — runs entirely in the browser, nothing to install.
 
-![Asteroids gameplay preview](assets/play.gif)
+<a href="https://matteogiorgi.github.io/asteroids/src">
+    <img src="assets/play.gif" alt="Asteroids gameplay preview" width="100%">
+</a>
 
 
 
@@ -45,7 +47,7 @@ cd src
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000` in your browser, or just run the convenience script: [`src/script.sh`](src/script.sh).
+Then open `http://localhost:8000` in your browser, or just run the convenience script: [`src/script.sh`](https://github.com/matteogiorgi/asteroids/blob/master/src/script.sh).
 
 
 
@@ -73,4 +75,4 @@ _(all under `src/`)_
 
 ## License
 
-Released under the [GNU GPLv3](LICENSE).
+Released under the [GNU GPLv3](https://github.com/matteogiorgi/asteroids/blob/master/LICENSE).
