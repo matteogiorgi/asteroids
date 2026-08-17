@@ -73,6 +73,6 @@ _(all under `src/`)_
 
 
 
-## License
+### License
 
 Released under the [GNU GPLv3](https://github.com/matteogiorgi/asteroids/blob/master/LICENSE).
