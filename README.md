@@ -5,7 +5,7 @@ A from-scratch remake of the 1979 Atari arcade classic [_Asteroids_](https://en.
 **[Play it now](https://matteogiorgi.github.io/asteroids/src)** — runs entirely in the browser, nothing to install.
 
 <a href="https://matteogiorgi.github.io/asteroids/src">
-    <img src="assets/play.gif" alt="Asteroids gameplay preview" width="100%">
+    <img class="shot-img" src="assets/play.gif" alt="Asteroids gameplay preview" />
 </a>
 
 
